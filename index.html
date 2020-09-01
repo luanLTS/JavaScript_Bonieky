@@ -5,11 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="widht=widht-device, user-scalable=0, initial-scale=1.0">
 
+    <link rel="stylesheet" href="style.css">
     <title>Javascript</title>
 </head>
 
 <body>
     
+    <h1 id="titulo">Eventos de teclados</h1>
+
+    <input type="text" name="campo" id="campo" focus onkeydown="somar(event)" />
+
+    <h1 id="title">Mudando de estilo</h1>
+
+    <button onclick="red()">Red</button>
+    <button onclick="green()">Green</button>
+    <button onclick="blue()">Blue</button><br /><br />    
+
+    <button onclick="showPhone(this)">Mostar Telefone</button>
+    <h1 id="telefone">9 60158349</h1>
 
     <script type="text/javascript" src="main.js"></script>
 </body>

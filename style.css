@@ -1,0 +1,15 @@
+.red {
+    background-color: #FF0000;
+}
+
+.green {
+    background-color: #00FF00;
+}
+
+.blue {
+    background-color: #0000FF;
+}
+
+#telefone {
+    display: none;
+}
