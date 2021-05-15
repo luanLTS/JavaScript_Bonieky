@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <p id="name">Luan</p>
+
+    <div class="list">
+        arroz, macarrão e frango
+    </div>
+
+    <div class="list">
+        arroz, macarrão e frango
+    </div>
+
+    <button>clique aqui</button>
+    <button name="enviar">clique aqui tambem</button><br /><br /><br /><br />
+    <div class="buttons">
+        <button onclick="red()">vermelho</button>
+        <button onclick="green()">verde</button>
+        <button onclick="blue()">azul</button>
+    </div>
+
+    <button class="vermelho" onclick="troca()" name="trocar">OFF</button>
+    <br /><br /><br />
+    <img class="image" src="./assets/images/cachorro.jpeg" data-animal="cachorro" />
+
+    <button onclick="trocarImg('cachorro.jpeg', 'cachorro')">cachorro</button>
+    <button onclick="trocarImg('gato.jpeg', 'gato')">gato</button>
+
+    <button onclick="pegarAnimal()">Qual é o animal</button>
+
+
+    
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

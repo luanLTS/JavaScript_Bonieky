@@ -72,3 +72,5 @@ carros[4]("Cruze")
 carros[4]("Celta")
 carros[4]("Fusca")
 console.log(carros)
+
+//! Fazer os exemplos da aula de Switch
